@@ -1,0 +1,91 @@
+.blind{
+    position: absolute;   
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+.inner{
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.header .logo a,
+.header .search-area .btn-submit::before,
+.header .service-area a::after,
+.gnb .nav-area .nav-item .ic-mail::before,
+.gnb .nav-area .nav-item .shopping::before,
+.gnb .nav-area .nav-item .live::before,
+.gnb .nav-area .nav-item .ic-tv::before,
+.gnb .nav-area .nav-item .ic-plus::after,
+.gnb .weather-area .weather-con::before,
+.sc-news .group-issue .issue-area .link-media::after,
+.sc-news .group-title .link-title::before,
+.sc-news .group-title .link-title::after,
+.sc-news .group-media .btn-prev,
+.sc-today .group-title .set .ic-set::after,
+.sc-today .group-title .set .ic-set::before,
+.sc-today .group-category .btn-prev,
+.sc-today .group-category .btn-next,
+.sc-today .group-recipes .box1 .recipe-list .recipe-item .ic-play,
+.sc-today .group-recipes .date::before,
+.sc-today .group-recipes .box3 .recipe-list .recipe-item .wrap .ic-play,
+.sc-today .group-funding .fund-title::after,
+.sc-login .link-login::before,
+.sc-login .sub-area .link-join::before,
+.sc-login .sub-area .link-id::before
+,.sc-sidenews .nav-wrap .btn-nav::after,
+.sc-today .group-add .btn-add .ic-add,
+.footer .notice .service::after{
+    background-image: url(../images/sp-bg.png);
+    background-size: 442px;
+    background-repeat: no-repeat;
+}
+
+.sc-today .group-recipes .box3 .recipe-list .recipe-item .sub .source::before{
+    background-image: url(../images/1.jpg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+
+
+.sc-today .group-recipes .box2 .ad-title::after{
+    background-image: url(../images/sp-bg2.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
+.sc-shopping .group-title .link-title::before,
+.sc-shopping .group-title .link-title::after,
+.sc-shopping .btn-nav::after,
+.sc-shopping .plusdeal .deal-wrap .plus-badge,
+.sc-shopping .plusdeal .deal-list .deal-item .main-img .ic-oneplus,
+.sc-shopping .plusdeal .deal-list .deal-item .ic-plus{
+    background-image: url(../images/sp-bg3.png);
+    background-size: 129px;
+    background-repeat: no-repeat;
+}
+
+
+
+.thumb-bd{
+    display: block;
+    position: relative;
+}
+.thumb-bd::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #000;
+    opacity: 0.1;
+    content: '';
+}
+
+img{
+    object-fit: cover;
+}
